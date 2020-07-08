@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Acromregular";
+    src: local("Acromregular"),
+    url("../fonts/acrom400.otf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Acrombold";
+    src: local("Acrombold"),
+    url("../fonts/acrom800.otf");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Acrom";
+    src: local("Acrom"),
+    url("../fonts/acrom300.otf");
+    font-style: normal;
+    font-weight: 300;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1026px;
+}
+
+/* SECTION HEADER HEAD */
+.headMain {
+    background: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 751px;
+}
+
+    .header {
+        background-color: rgba(3,4,5,0.5);
+        height: 167px;
+    }
+
+        .logo {
+            margin: 55px 0 60px;
+            vertical-align: top;
+            float: left;
+        }
+
+        .head {
+            display: inline-block;
+            text-align: right;
+            vertical-align: top;
+            float: right;
+            font: 400 23px "Acromregular";
+            color: #fff;
+            padding: 41px 0 46px;
+            box-sizing: border-box;
+        }
+
+        .btn {
+            float: right;
+            cursor: pointer;
+            border: 1px solid #0585b7;
+            border-top: 2px solid #0585b7;
+            border-left: 2px solid #0585b7;
+            background: none;
+            border-radius: 13px;
+            font: 400 9px "Acromregular";
+            color: #fff;
+            padding: 0 9px;
+            margin: 61px 0 67px 28px;
+            line-height: 32px;
+        }
+
+/* SECTION HEADER MAIN */
+.header .container:last-of-type {
+    text-align: center;
+    padding: 90px 0 130px;
+}
+
+.container > h1 {
+    font: 800 37px "Acrombold";
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container > h2 {
+    font: 400 19px "Acromregular";
+    color: #00a9ea;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.mainBtn {
+    display: inline-block;
+    font: 800 10px "Acrom";
+    color: #fff;
+    line-height: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 10px;
+    background: #ee6e22;
+    border-radius: 13px;
+    vertical-align: top;
+    cursor: pointer;
+    letter-spacing: 0.025rem;
+    margin-bottom: 38px;
+}
+
+.btnTel {
+    color: #fff;
+    font: 300 9px "Acromregular";
+    letter-spacing: 0.025rem;
+    background: none;
+    border: 2px solid #0889bd;
+    border-radius: 13px;
+    padding: 0 15px;
+    cursor: pointer;
+    position: relative;
+    line-height: 32px;
+}
+
+.btnTel i {
+    position: relative;
+    top: 4px;
+    left: 0;   
+
+}
+
+/* SECTION MAIN */
+
+.divider {
+    height: 85px;
+    background-color: #ee6e22;
+}
+
+.main {
+    background-color: #fff;   
+    height: 588px;   
+}
+
+    .main .container {
+        height: 588px;    
+        font-size: 0;    
+    }
+
+        .left {
+            background: url("../images/bgMain.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 50%;
+            height: 588px; 
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .right {
+            /* background: #cc99FF; */
+            width: 50%;
+            height: 588px; 
+            display: inline-block;
+            vertical-align: top;
+        }
+            .main h2 {
+                font: 800 42px/52px "Acrombold";
+                color: #231f20;
+                margin-bottom: 45px;
+                margin-top: 80px;
+            }
+
+            .nav {
+                color: #231f20;
+                font-size: 24px;
+                list-style-position: inside;
+                line-height: 49px;
+                margin-bottom: 210px;
+            }
+
+                .nav > li {
+                    
+                }
+
+                .nav > li > a {
+                    display: inline;
+                    cursor: pointer;
+                    font: 700 24px/49px "Acrombold";
+                    color: #00aaeb;
+                    text-decoration: none;
+                    box-sizing: border-box;
+                    width: 100%;
+                    
+                }
+.rewiew {
+    background-image: url(../images/rewiew.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 163px 0 200px;
+    
+}
+
+    .rewiew img {
+        border-radius: 50%;
+        position: relative;
+        right: -150px;
+    }
+
+    .rightBlock {
+        float: right;
+        width: 50%;
+    }
+        .rewiew h3 {
+            font: 800 35px "Acrombold";
+            color: #00a9ea;
+            margin-bottom: 60px;
+        }
+
+        .rewiew p {
+            font: 400 19px "Acromregular";
+            color: #fff;        
+        }
+
+footer {
+    background: rgba(2,3,5,0.99);
+    padding: 100px 0;   
+    color: #fff;
+}
+
+.col-3 {
+    width: 33.333%;
+    float: left;
+}
+
+.callback {
+    font: 300 11px "Acrom";
+    color: #fff;
+    background: none;
+    border: 2px solid #018dc4;
+    border-radius: 14px;
+    padding: 5px 10px;
+    outline: none;
+    width: 200px;
+    /* margin-left: 40px; */
+}
+
+footer label {
+    display: inline-block;
+    width: 100px;
+    text-transform: uppercase;
+    font: 300 11px "Acrom";
+}
+
+footer p {
+    margin-bottom: 20px;
+}
